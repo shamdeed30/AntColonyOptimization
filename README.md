@@ -1,30 +1,27 @@
-# Compilation
-The following commands will be run to compile your software:
-```
-mkdir build
-cd build
-cmake ..
-cmake --build .
-```
+## Best Distance over Iteration
+![Best Distance Over Iteration](images/best_distance_over_iteration.gif)
 
-The build script should produce two executable binaries:
-    - dfs_demo    -> executable using depth first search
-    - search_demo -> executable using A* search
+## Best Distance over No. of Citites for the three extensions
+![Best Distance Over Number of Cities](images/best_distance_over_no_of_cities.png)
 
-# Implementation Notes
-The provided JAVA codebase implements both A* search and Depth First Search 
-(DFS) algorithms. You only need to implement one of the algorithms for full 
-credit, but it is suggested that you try implementing both if you can 
-find the time. DFS is a little less code since the activation records take care 
-of the bookkeeping. In A* Search, a priority queue (aka min-heap) is required to
-keep track of which location to check next.
+## Comparison of 3 three variants with varied number ants ant and number of cities:
+Test done in the ACO_comparison.ipynb file. Refer to that for all the plots
+* Set high and low number of ant; low = 5, high = 50
+* Set high anf low number of city; low = 20, high = 80
 
-An initial CMakeLists.txt has been provided and demo.c has been stubbed out.
+We then compare for the following 4 cases:
+* low ant, low city
+![Low Ant vs Low City](images/lowAnt_lowCity.png)
+* low ant, high city
+![Low Ant vs High City](images/lowAnt_highCity.png)
+* high ant, low city
+![High Ant vs Low City](images/highAnt_lowCity.png)
+* high ant, high city
+![High Ant vs High City](images/highAnt_highCity.png)
 
-There's no need to reimplement point and map abstractions completely from scratch... you should be able to reuse much of the code from the previous assignment for these.
+Comparison basis:
+Each algorithm gives us the best distance for the best path. So, we ran ran each algorithm 100 times for each of the 4 cases and plotted the distances to understand the emerging patterns.
 
-# Test script
-The test script for this assignment is `test_path` and it works just like the test scripts for the previous assignments.
 
 # Files Expected
 
