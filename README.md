@@ -12,9 +12,6 @@ This system optimize the basic algorithm by strengthen current solution each ite
 # Max-Min Ant System (MMAS)
 In the Max-Min system, there is a lower and upper limit (i.e lower=0.2, upper=2) of pheromone deposit in each path. This ensures that the algorithm doesn’t stagnate to a suboptimal solution. For each iteration, the algorithm limits the pheromone deposit in this ranges while updating the pheromone matrix. This gives the ant swarm more chances for exploration, hence, increasing the possibility of finding the best path.
 
-![20230916_082706](https://github.com/shamdeed30/AntColonyOptimization/assets/117672677/4cebfee4-91ef-4939-beaf-3e367dbd904b)
-
-
 
 # Files Expected
 
