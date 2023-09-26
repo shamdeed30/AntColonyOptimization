@@ -1,4 +1,4 @@
-<img width="701" alt="Best Distance over Number of Iterations for 4 Possible Combinations" src="https://github.com/shamdeed30/AntColonyOptimization/assets/117672677/799f5a6b-e099-4d5a-b30d-5bf77657c22a">## Comparison of 3 three variants with varied number ants ant and number of cities:
+# Implementation of 3 Variants of Ant Colony Optimization for Solving the Travelling Salesman Problem:
 
 1. Rank-Based Ant System (ASrank)
 2. Elitist Ant System
@@ -16,17 +16,17 @@ This system optimizes the basic algorithm by strengthening the current solution 
 # Max-Min Ant System (MMAS)
 In the Max-Min system, there is a lower and upper limit (i.e. lower=0.2, upper=2) of pheromone deposit in each path. This ensures that the algorithm doesn’t stagnate to a suboptimal solution. For each iteration, the algorithm limits the pheromone deposit in this range while updating the pheromone matrix. This gives the ant swarm more chances for exploration, hence, increasing the possibility of finding the best path
 
-## Number of Cities vs Best Distance
+# Number of Cities vs Best Distance
 <img width="537" alt="Screenshot 2023-09-26 at 9 07 41 PM" src="https://github.com/shamdeed30/AntColonyOptimization/assets/117672677/9f594f5c-0597-41cc-a9b8-585295b43b6a">
 
-## Performance Comparison Based on Number of Ants and Cities
-# Best Distance for each case for 100 iterations:
+# Performance Comparison Based on Number of Ants and Cities
+ Best Distance for each case for 100 iterations:
 <img width="612" alt="Performance Comparison Based on Number of Ants and Cities" src="https://github.com/shamdeed30/AntColonyOptimization/assets/117672677/9730829b-a968-4ce3-a643-1204ae26c83d">
 
 # Best Distance over Number of Iterations for 4 Possible Combinations:
 <img width="701" alt="Best Distance over Number of Iterations for 4 Possible Combinations" src="https://github.com/shamdeed30/AntColonyOptimization/assets/117672677/d071d133-a589-4053-ba34-b70908e8ee39">
 
-## Files Expected to Run the Code:
+# Files Expected to Run the Code:
 
     .
     ├──README.md    - This file containing documentation for the assignment
