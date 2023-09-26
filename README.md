@@ -1,14 +1,3 @@
-This is the last assignment where you will port JAVA code. The program involves
-porting multiple JAVA objects to C. 
-
-Where there will be multiple C files that need to be linked together, this 
-project is complex enough to start using a build system. ...I kind of hate 
-CMake but it seems like CMake is overtaking autotools in adoption. The build
-system is also required since I don't know all the files you'll be making and
-therefore can't know what the command to compile from the command line would
-be.
-
-
 # Compilation
 The following commands will be run to compile your software:
 ```
