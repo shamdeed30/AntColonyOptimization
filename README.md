@@ -14,7 +14,7 @@ This system optimizes the basic algorithm by strengthening the current solution 
 In the Max-Min system, there is a lower and upper limit (i.e. lower=0.2, upper=2) of pheromone deposit in each path. This ensures that the algorithm doesn’t stagnate to a suboptimal solution. For each iteration, the algorithm limits the pheromone deposit in this range while updating the pheromone matrix. This gives the ant swarm more chances for exploration, hence, increasing the possibility of finding the best path.
 
 # Rank-Based ACO Best Distance Over Iteration
-Stagnation of best distances: low no. of cities (left) vs. high no. of (right)
+Stagnation of best distances for low no. of cities (left) and high no. of (right)
 <img width="818" alt="Rank Based ACO Best Distance Over Iteration" src="https://github.com/shamdeed30/AntColonyOptimization/assets/117672677/540917aa-c23f-46bd-a874-7232ccb0d9f0">
 
 # Number of Cities vs Best Distance
